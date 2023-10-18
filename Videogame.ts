@@ -30,13 +30,13 @@ class Videogame {
     estimarTempoJogo(): string {
         switch (this.gender) {
           case 'Ação':
-            return 'Cerca de 12 horas';
+            return 'Cerca de 8 horas';
           case 'Aventura':
-            return 'Cerca de 20 horas';
+            return 'Cerca de 15 horas';
           case 'Esportes':
             return 'Indeterminado';
           case 'Estratégia':
-            return 'Cerca de 40 horas';
+            return 'Cerca de 36 horas';
           default:
             return 'Tempo estimado desconhecido';
         }
