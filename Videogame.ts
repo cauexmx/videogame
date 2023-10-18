@@ -29,13 +29,13 @@ class Videogame {
 
     estimarTempoJogo(): string {
         switch (this.gender) {
-          case 'Ação':
+          case 'Action':
             return 'Cerca de 8 horas';
-          case 'Aventura':
+          case 'Adventure':
             return 'Cerca de 15 horas';
-          case 'Esportes':
+          case 'Sports':
             return 'Indeterminado';
-          case 'Estratégia':
+          case 'Strategy':
             return 'Cerca de 36 horas';
           default:
             return 'Tempo estimado desconhecido';
@@ -43,7 +43,7 @@ class Videogame {
     }
 }
 
-const sonic = new Videogame('Sonic', 'Aventura', 2, ['Nintendo'] , 50);
+const sonic = new Videogame('Sonic', 'Adventure', 2, ['Nintendo'] , 50);
 sonic.showDetails();
 sonic.Apply();
 
